@@ -60,9 +60,10 @@
     "redux": "^4.0.1",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
+
     "sequelize": "^5.15.1",
     "socket.io": "^2.2.0"
-  },
+
   "devDependencies": {
     "@babel/core": "^7.4.3",
     "@babel/plugin-proposal-class-properties": "7.4.0",
