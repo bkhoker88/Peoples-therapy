@@ -5,12 +5,15 @@ import {connect} from 'react-redux'
 /**
  * COMPONENT
  */
-export const UserHome = props => {
-  const {email} = props
-
+export const UserHome = () => {
   return (
     <div>
-      <h3>Welcome, {email}</h3>
+      <h1 id="intro">
+        A mental health practice of diverse and inclusive therapists for the
+        people; our people.
+      </h1>
+
+      <img alt="" src="rocko.png" height="400" width="1000" />
     </div>
   )
 }
