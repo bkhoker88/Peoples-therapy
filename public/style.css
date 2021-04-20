@@ -1,3 +1,7 @@
+html {
+  display: block;
+}
+
 body {
   font-family: sans-serif;
 }
@@ -18,4 +22,36 @@ nav a {
 form div {
   margin: 1em;
   display: inline-block;
+}
+
+#footer-div {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  background-color: #c89882;
+  color: white;
+  padding: 8px;
+}
+
+#intro {
+  text-align: center;
+  white-space: pre-wrap;
+  /* transition-timing-function: ease; transition-duration: 1.2s;
+  transition-delay: 0.331579s; */
+}
+
+#nav-div,
+nav {
+  background-color: #c89882;
+  padding: 15px;
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+#logo {
+  width: auto;
+  max-width: 100%;
+  max-height: 141px;
 }
