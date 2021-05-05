@@ -1,11 +1,9 @@
 import React from 'react'
 
-export const UserHome = props => {
-  const {email} = props
-
+export const About = () => {
   return (
     <div>
-      <h3>Welcome, {email}</h3>
+      <h3>Welcome</h3>
     </div>
   )
 }
