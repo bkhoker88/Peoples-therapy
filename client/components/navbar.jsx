@@ -12,6 +12,7 @@ const Navbar = () => (
         <Link to="/Services"> Services</Link>
         <Link to="/Insurance"> Insurance & Fees </Link>
         <Link to="/Contact">Contact Us</Link>
+        {/* <button type='button'>Contact</button> */}
       </ul>
       <div />
     </nav>
