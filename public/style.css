@@ -40,8 +40,6 @@ form div {
   width: 100%;
   text-align: center;
   font-size: 14px;
-  background-color: #c89882;
-  color: white;
   padding: 8px;
 }
 
@@ -51,10 +49,8 @@ form div {
   margin-right: auto;
   font-family: fantasy;
   text-align: center;
-  white-space: pre-wrap;
-  width: 50vw;
-  font-size-adjust: inherit;
-  padding: 50px;
+  width: 75vmax;
+  color: #c89882;
   font-variant: small-caps;
   font-size: 3.5vw;
 }
@@ -69,6 +65,8 @@ nav,
   justify-content: space-evenly;
   white-space: pre-wrap;
   font-size: 20px;
+  position: relative;
+  bottom: 0;
 }
 
 #logo {
@@ -76,8 +74,8 @@ nav,
   align-items: center;
   justify-content: left;
   margin-left: 0%;
-  width: 85;
-  height: 85;
+  width: 150px;
+  height: 150px;
 }
 
 link {
@@ -158,4 +156,63 @@ link {
   border-radius: 30px;
   padding: 10px;
   color: White;
+}
+#Contact:hover {
+  background-color: #c27856;
+  background-color: ;
+  border-radius: 30px;
+  padding: 10px;
+  color: White;
+}
+
+#homebottom {
+  text-decoration-color: rgb(233, 225, 241);
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  text-align: center;
+  justify-content: space-evenly;
+  white-space: pre-wrap;
+  font-size: 2vw;
+  color: #c89882;
+}
+
+#homebottom2 {
+  text-decoration-color: rgb(233, 225, 241);
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  text-align: center;
+  justify-content: space-around;
+  white-space: pre-wrap;
+  font-size: 1vw;
+  font-family: fantasy;
+  font-variant: small-caps;
+}
+
+#footName {
+  color: #c89882;
+  font-size: 30px;
+  padding: 45px;
+  font-weight: bold;
+  font-family: fantasy;
+}
+
+nav {
+  overflow: hidden;
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+
+#about {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: fantasy;
+  text-align: center;
+  width: 75vmax;
+  color: black;
+
+  font-size: 2vw;
 }

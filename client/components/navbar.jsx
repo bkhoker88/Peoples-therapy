@@ -1,10 +1,13 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import {Fade} from 'react-reveal'
 
 const Navbar = () => (
   <div>
     <nav>
-      <img alt="" src="rocko.png" height="50" width="50" id="logo" />
+      <Fade left>
+        <img alt="" src="rocko.png" height="50" width="50" id="logo" />
+      </Fade>
       <ul>
         <Link to="/"> Home</Link>
         <Link to="/Aboutus"> Who We Are</Link>
