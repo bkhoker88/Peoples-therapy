@@ -1,9 +1,12 @@
 import React from 'react'
+import {Zoom} from 'react-reveal'
 
 export const MeetOurTeam = () => {
   return (
     <div>
-      <h1>"Meet The Team"</h1>
+      <Zoom>
+        <h1 id="intro">"Our Team"</h1>
+      </Zoom>
       <div className="row">
         <div className="column">
           <div className="card">
