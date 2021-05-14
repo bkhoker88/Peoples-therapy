@@ -5,10 +5,16 @@ html {
 
 body {
   font-family: sans-serif;
+  background-color: white;
 }
 
 a {
   text-decoration: none;
+}
+
+a:hover {
+  color: #c89882;
+  /* text-decoration: underline; */
 }
 
 label {
@@ -18,6 +24,9 @@ label {
 nav a {
   display: inline-block;
   margin: 1em;
+  color: black;
+  font: 17px;
+  font-family: fantasy;
 }
 
 form div {
@@ -31,29 +40,33 @@ form div {
   width: 100%;
   text-align: center;
   font-size: 14px;
-  background-color: #c89882;
-  color: white;
   padding: 8px;
 }
 
 #intro {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: fantasy;
   text-align: center;
-  white-space: pre-wrap;
-  transition-timing-function: ease;
-  transition-duration: 1.2s;
-  transition-delay: 0.331579s;
+  width: 75vmax;
+  color: #c89882;
+  font-variant: small-caps;
+  font-size: 3.5vw;
 }
 
 nav,
 #footContainer {
-  background-color: #c89882;
   text-decoration-color: rgb(233, 225, 241);
   display: flex;
   align-items: center;
-  padding: 5px;
+  padding: 25px;
   text-align: center;
   justify-content: space-evenly;
   white-space: pre-wrap;
+  font-size: 20px;
+  position: relative;
+  bottom: 0;
 }
 
 #logo {
@@ -61,8 +74,8 @@ nav,
   align-items: center;
   justify-content: left;
   margin-left: 0%;
-  width: 85;
-  height: 85;
+  width: 150px;
+  height: 150px;
 }
 
 link {
@@ -73,7 +86,8 @@ link {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 1400px;
+  height: 720px;
 }
 
 *,
@@ -135,4 +149,70 @@ link {
 #therapist {
   height: 550px;
   width: 525px;
+}
+
+#Contact {
+  background-color: #c89882;
+  border-radius: 30px;
+  padding: 10px;
+  color: White;
+}
+#Contact:hover {
+  background-color: #c27856;
+  background-color: ;
+  border-radius: 30px;
+  padding: 10px;
+  color: White;
+}
+
+#homebottom {
+  text-decoration-color: rgb(233, 225, 241);
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  text-align: center;
+  justify-content: space-evenly;
+  white-space: pre-wrap;
+  font-size: 2vw;
+  color: #c89882;
+}
+
+#homebottom2 {
+  text-decoration-color: rgb(233, 225, 241);
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  text-align: center;
+  justify-content: space-around;
+  white-space: pre-wrap;
+  font-size: 1vw;
+  font-family: fantasy;
+  font-variant: small-caps;
+}
+
+#footName {
+  color: #c89882;
+  font-size: 30px;
+  padding: 45px;
+  font-weight: bold;
+  font-family: fantasy;
+}
+
+nav {
+  overflow: hidden;
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+
+#about {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: fantasy;
+  text-align: center;
+  width: 75vmax;
+  color: black;
+
+  font-size: 2vw;
 }
