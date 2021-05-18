@@ -72,8 +72,8 @@ nav,
   align-items: center;
   justify-content: left;
   margin-left: 0%;
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
 }
 
 link {
@@ -146,7 +146,7 @@ link {
 
 #therapist {
   height: 550px;
-  width: 525px;
+  width: 550px;
 }
 
 #Contact {

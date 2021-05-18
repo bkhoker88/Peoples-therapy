@@ -6,7 +6,7 @@ const Navbar = () => (
   <div>
     <nav>
       <Fade left>
-        <img alt="" src="rocko.png" height="50" width="50" id="logo" />
+        <img alt="" src="logo.png" height="50" width="50" id="logo" />
       </Fade>
       <ul>
         <Link to="/"> Home</Link>

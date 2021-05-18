@@ -10,7 +10,7 @@ export const MeetOurTeam = () => {
         <div className="row">
           <div className="column">
             <div className="card">
-              <img id="therapist" src="rocko.png" alt="Jane" />
+              <img id="therapist" src="Boo.jpg" alt="Jane" />
               <div className="container">
                 <h2>Adriana Khoker, LCSW</h2>
                 <p className="title">CEO & Founder</p>
@@ -48,7 +48,7 @@ export const MeetOurTeam = () => {
 
           <div className="column">
             <div className="card">
-              <img id="therapist" src="rocko.png" alt="Mike" />
+              <img id="therapist" src="shaynell.jpg" alt="Mike" />
               <div className="container">
                 <h2>Shaynel Roberts, LMSW</h2>
                 <p className="title">Psychotherapist</p>
@@ -82,7 +82,7 @@ export const MeetOurTeam = () => {
 
           <div className="column">
             <div className="card">
-              <img id="therapist" src="rocko.png" alt="John" />
+              <img id="therapist" src="darrlyn.jpeg" alt="John" />
               <div className="container">
                 <h2>John Doe</h2>
                 <p className="title">Designer</p>
