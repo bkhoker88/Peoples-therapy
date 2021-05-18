@@ -1,5 +1,5 @@
 import React from 'react'
-import {Zoom, Tada} from 'react-reveal'
+import {Zoom} from 'react-reveal'
 
 /**
  * COMPONENT
