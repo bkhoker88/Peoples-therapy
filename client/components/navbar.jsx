@@ -17,6 +17,7 @@ const Navbar = () => (
 
         {/* <button type='button'>Contact</button> */}
       </ul>
+
       <div />
     </nav>
   </div>
