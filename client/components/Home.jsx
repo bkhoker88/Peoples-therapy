@@ -7,25 +7,26 @@ import {Zoom} from 'react-reveal'
 export const Home = () => {
   return (
     <div>
-      <div className="firstIntro">
-        <Zoom duration={800} delay={800}>
-          <h1 id="intro">a mental health practice of diverse</h1>
-        </Zoom>
-        <Zoom duration={800} delay={1600}>
-          <h1 id="intro">and inclusive therapists for the people;</h1>
-        </Zoom>
-        <Zoom duration={800} delay={2400}>
-          <h1 id="intro">our people.</h1>
-        </Zoom>
+      <div className="imgContainer">
+        <img
+          id="homePhoto"
+          src="nyc2.jpg"
+          height="400"
+          width="400"
+          className="responsive"
+        />
+        <div className="firstIntro">
+          <Zoom duration={800} delay={800}>
+            <h2 id="intro">a mental health practice of diverse</h2>
+          </Zoom>
+          <Zoom duration={800} delay={1600}>
+            <h2 id="intro">and inclusive therapists for the people;</h2>
+          </Zoom>
+          <Zoom duration={800} delay={2400}>
+            <h2 id="intro">our people.</h2>
+          </Zoom>
+        </div>
       </div>
-
-      <img
-        id="homePhoto"
-        src="NYC.jpg"
-        height="400"
-        width="400"
-        className="responsive"
-      />
       <br />
       <div id="homebottom">
         <Zoom duration={1700} delay={800}>

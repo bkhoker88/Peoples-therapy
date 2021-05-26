@@ -17,7 +17,7 @@ const Footbar = () => {
           </div>
           <div>
             <div id="footName">Contact</div>
-            <div>hello@thepeoplestherapy.sprucecare.com</div>
+            <div>hello@thepeoplestherapy</div>
             <div>Phone (917) 426-1618</div>
           </div>
         </div>
