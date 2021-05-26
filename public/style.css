@@ -10,10 +10,13 @@ body {
 
 a {
   text-decoration: none;
+  padding: 5px;
 }
 
 a:hover {
-  color: #266150;
+  color: #fdf8f5;
+  background-color: #266150;
+  border-radius: 30px;
   /* text-decoration: underline; */
 }
 
@@ -25,8 +28,9 @@ nav a {
   display: inline-block;
   margin: 1em;
   color: #4f4846;
-  font-size: 1.6vw;
+  font-size: 1.8vw;
   font-family: fantasy;
+  font-variant: small-caps;
 }
 
 form div {
@@ -66,12 +70,15 @@ nav {
   font-size: 2vh;
   width: auto;
   height: auto;
-  padding: 15px;
+  padding: 1px;
   margin: 0;
-  background-color: #fdf8f5;
+  background-image: linear-gradient(to right, #fdf8f5, #e8cebf, #266150);
 }
 nav > img {
   margin-right: auto;
+  margin-left: 4%;
+  width: 14%;
+  height: auto;
 }
 .imgContainer {
   position: relative;
@@ -88,7 +95,7 @@ nav > img {
   width: auto;
   height: auto;
   margin: 0;
-  background-color: #fdf8f5;
+  background-image: linear-gradient(to top left, #fdf8f5, #e8cebf, #266150);
 }
 #footContainer > div {
   font-size: 1.2vw;
@@ -96,15 +103,17 @@ nav > img {
   padding: 10px;
   height: auto;
   width: 20em;
+  color: #4f4846;
+  font-family: fantasy;
 }
 #footName {
-  color: #c89882;
+  color: #266150;
   font-size: 2vw;
   padding: 10px;
   font-weight: bold;
   font-family: fantasy;
 }
-
+/*
 #logo {
   display: flex;
   align-items: left;
@@ -112,7 +121,7 @@ nav > img {
   margin-left: 3%;
   width: 10%;
   height: auto;
-}
+} */
 
 #homePhoto {
   width: 100%;
@@ -185,13 +194,12 @@ nav > img {
   background-color: #4f4846;
   border-radius: 30px;
   padding: 10px;
-  color: White;
+  color: #fdf8f5;
+  width: 1vw;
 }
 #Contact:hover {
   background-color: #266150;
   border-radius: 30px;
-  padding: 10px;
-  color: White;
 }
 
 #homebottom {
@@ -203,7 +211,9 @@ nav > img {
   justify-content: space-around;
   white-space: pre-wrap;
   font-size: 2vw;
-  color: #266150;
+  color: #fdf8f5;
+  font-variant: small-caps;
+  text-shadow: 2px 2px 5px #4f4846;
 }
 
 #homebottom2 {
@@ -226,7 +236,7 @@ nav > img {
 }
 
 #homebottom2 > h1 {
-  padding: 30px;
+  padding: 15px;
   color: #4f4846;
 }
 
@@ -235,7 +245,6 @@ nav {
   position: relative;
   top: 0;
   width: 100%;
-  background-image: #fdf8f5;
 }
 
 #about {
