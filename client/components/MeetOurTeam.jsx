@@ -3,15 +3,15 @@ import {Zoom} from 'react-reveal'
 
 export const MeetOurTeam = () => {
   return (
-    <div>
+    <div className="team">
       <Zoom>
-        <h1 id="intro">"Our Team"</h1>
+        <h1 id="introTitle">"Our Team"</h1>
 
         <div className="row">
           <div className="column">
             <div className="card">
-              <img id="therapist" src="Boo.jpg" alt="Jane" />
               <div className="container">
+                <img id="therapist" src="Boo.jpg" alt="Jane" />
                 <h2>Adriana Khoker, LCSW</h2>
                 <p className="title">CEO & Founder</p>
                 <p>
@@ -48,8 +48,8 @@ export const MeetOurTeam = () => {
 
           <div className="column">
             <div className="card">
-              <img id="therapist" src="shaynell.jpg" alt="Mike" />
               <div className="container">
+                <img id="therapist" src="shaynell.jpg" alt="Mike" />
                 <h2>Shaynel Roberts, LMSW</h2>
                 <p className="title">Psychotherapist</p>
                 <p>
@@ -82,11 +82,91 @@ export const MeetOurTeam = () => {
 
           <div className="column">
             <div className="card">
-              <img id="therapist" src="darrlyn.jpeg" alt="John" />
               <div className="container">
-                <h2>John Doe</h2>
+                <img id="therapist" src="darrlyn.jpeg" alt="John" />
+                <h2>Darrlyn</h2>
                 <p className="title">Designer</p>
-                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p>
+                  Some text that describes me lorem ipsum ipsum
+                  loremsfzscCCCCCCCCFFFFFFFF
+                  Ddddddddddasdasfdsvsdvafdsvaaaaaaaaaaaaaa
+                  asdfasddddddddddddddddddd asfdasdf
+                  asssssssssssssssssssssssssssasdf Shaynel enjoys an eclectic
+                  approach with her clients utilizing cognitive behavior
+                  interventions, DBT, REBT, MI, family systems, and mindfulness
+                  to help you understand the challenges you face. She has
+                  extensive experience in behavioral health settings, school
+                  settings, outpatient and in-home services, as well as in the
+                  child welfarasdfadsdfasdf.
+                </p>
+                <p>example@example.com</p>
+                <p>
+                  <button type="button" className="button">
+                    Contact
+                  </button>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="column">
+            <div className="card">
+              <div className="container">
+                <img id="therapist" src="shaynell.jpg" alt="Mike" />
+                <h2>Shaynel Roberts, LMSW</h2>
+                <p className="title">Psychotherapist</p>
+                <p>
+                  Shaynel is a psychotherapist who works with adults, children
+                  and adolescents as well as their families. She has a
+                  particular focus on those struggling with depression, anxiety,
+                  behavior concerns, communication struggles, and work and
+                  relationship issues. She utilizes a warm and collaborative
+                  approach during treatment and makes sure to identify your
+                  goals and set a treatment plan to get you feeling better and
+                  more balanced.
+                </p>
+                <p>
+                  Shaynel enjoys an eclectic approach with her clients utilizing
+                  cognitive behavior interventions, DBT, REBT, MI, family
+                  systems, and mindfulness to help you understand the challenges
+                  you face. She has extensive experience in behavioral health
+                  settings, school settings, outpatient and in-home services, as
+                  well as in the child welfare system.
+                </p>
+                <p>example@example.com</p>
+                <p>
+                  <button type="button" className="button">
+                    Contact
+                  </button>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="column">
+            <div className="card">
+              <div className="container">
+                <img id="therapist" src="shaynell.jpg" alt="Mike" />
+                <h2>Shaynel Roberts, LMSW</h2>
+                <p className="title">Psychotherapist</p>
+                <p>
+                  Shaynel is a psychotherapist who works with adults, children
+                  and adolescents as well as their families. She has a
+                  particular focus on those struggling with depression, anxiety,
+                  behavior concerns, communication struggles, and work and
+                  relationship issues. She utilizes a warm and collaborative
+                  approach during treatment and makes sure to identify your
+                  goals and set a treatment plan to get you feeling better and
+                  more balanced.
+                </p>
+                <p>
+                  Shaynel enjoys an eclectic approach with her clients utilizing
+                  cognitive behavior interventions, DBT, REBT, MI, family
+                  systems, and mindfulness to help you understand the challenges
+                  you face. She has extensive experience in behavioral health
+                  settings, school settings, outpatient and in-home services, as
+                  well as in the child welfare system.
+                </p>
                 <p>example@example.com</p>
                 <p>
                   <button type="button" className="button">

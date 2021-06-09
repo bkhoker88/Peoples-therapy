@@ -5,7 +5,7 @@ export const Insurance = () => {
   return (
     <div>
       <Zoom>
-        <h1 id="intro">Who We Are </h1>
+        <h1 id="introTitle">Insurance </h1>
       </Zoom>
       <Zoom>
         <div id="about">

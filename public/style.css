@@ -6,14 +6,17 @@ html {
 body {
   font-family: sans-serif;
   background-color: #e8cebf;
+  /* background-image: linear-gradient(to bottom right,#fdf8f5, #e8cebf,#e8cebf); */
 }
 
 a {
   text-decoration: none;
+  padding: 5px;
 }
 
 a:hover {
   color: #266150;
+
   /* text-decoration: underline; */
 }
 
@@ -23,10 +26,12 @@ label {
 
 nav a {
   display: inline-block;
-  margin: 1em;
+  margin: 0.75em;
   color: #4f4846;
-  font-size: 1.6vw;
+  font-size: 1.5vw;
   font-family: fantasy;
+  font-variant: small-caps;
+  border: #266150;
 }
 
 form div {
@@ -57,26 +62,52 @@ form div {
   margin: 1vh;
 }
 
+#introTitle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: fantasy;
+  text-align: center;
+  color: #266150;
+  font-variant: small-caps;
+  font-size: 3.8vw;
+  margin: 1vh;
+  padding: 25px;
+}
+
 nav {
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: flex-end;
   white-space: pre-wrap;
-  font-size: 2vh;
+  font-size: 2.2vh;
   width: auto;
   height: auto;
-  padding: 15px;
+  padding: 1px;
   margin: 0;
-  background-color: #fdf8f5;
+  background-image: linear-gradient(
+    to right,
+    #fdf8f5,
+    #e8cebf,
+    #e8cebf,
+    #e8cebf
+  );
 }
 nav > img {
   margin-right: auto;
+  margin-left: 4%;
+  width: 13%;
+  height: auto;
 }
 .imgContainer {
   position: relative;
   text-align: center;
 }
+/*
+.navBorder{
+  padding:0px;
+} */
 
 #footContainer {
   display: flex;
@@ -96,15 +127,17 @@ nav > img {
   padding: 10px;
   height: auto;
   width: 20em;
+  color: #4f4846;
+  font-family: fantasy;
 }
 #footName {
-  color: #c89882;
+  color: #266150;
   font-size: 2vw;
   padding: 10px;
   font-weight: bold;
   font-family: fantasy;
 }
-
+/*
 #logo {
   display: flex;
   align-items: left;
@@ -112,7 +145,7 @@ nav > img {
   margin-left: 3%;
   width: 10%;
   height: auto;
-}
+} */
 
 #homePhoto {
   width: 100%;
@@ -137,11 +170,18 @@ nav > img {
     width: 100%;
     display: block;
   }
+  .card {
+    width: 50%;
+    display: inherit;
+  }
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 100%;
+  height: 100%;
+  background-color: #fdf8f5;
+  padding: 8px;
 }
 
 .container {
@@ -152,7 +192,7 @@ nav > img {
 .row::after {
   content: '';
   clear: both;
-  display: table;
+  display: block;
 }
 
 .title {
@@ -177,21 +217,20 @@ nav > img {
 }
 
 #therapist {
-  height: 550px;
-  width: 550px;
+  height: 75%;
+  width: 75%;
 }
 
 #Contact {
   background-color: #4f4846;
   border-radius: 30px;
   padding: 10px;
-  color: White;
+  color: #fdf8f5;
+  width: 1vw;
 }
 #Contact:hover {
   background-color: #266150;
   border-radius: 30px;
-  padding: 10px;
-  color: White;
 }
 
 #homebottom {
@@ -203,7 +242,9 @@ nav > img {
   justify-content: space-around;
   white-space: pre-wrap;
   font-size: 2vw;
-  color: #266150;
+  color: #fdf8f5;
+  font-variant: small-caps;
+  text-shadow: 2px 2px 5px #4f4846;
 }
 
 #homebottom2 {
@@ -226,7 +267,7 @@ nav > img {
 }
 
 #homebottom2 > h1 {
-  padding: 30px;
+  padding: 15px;
   color: #4f4846;
 }
 
@@ -235,19 +276,18 @@ nav {
   position: relative;
   top: 0;
   width: 100%;
-  background-image: #fdf8f5;
 }
 
-#about {
+#about > p {
   display: block;
   margin-left: auto;
   margin-right: auto;
   font-family: fantasy;
   text-align: center;
-  width: 75vmax;
-  color: black;
-
+  width: 75vw;
+  color: #4f4846;
   font-size: 2vw;
+  padding: 10px;
 }
 
 .firstIntro {
