@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 import {Fade} from 'react-reveal'
 
 const Navbar = () => (
-  <div>
+  <div className="navBorder">
     <nav>
       <Fade left>
         <img alt="" src="logo.png" height="50" width="50" id="logo" />

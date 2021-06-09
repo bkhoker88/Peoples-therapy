@@ -6,6 +6,7 @@ html {
 body {
   font-family: sans-serif;
   background-color: #e8cebf;
+  /* background-image: linear-gradient(to bottom right,#fdf8f5, #e8cebf,#e8cebf); */
 }
 
 a {
@@ -14,9 +15,8 @@ a {
 }
 
 a:hover {
-  color: #fdf8f5;
-  background-color: #266150;
-  border-radius: 30px;
+  color: #266150;
+
   /* text-decoration: underline; */
 }
 
@@ -26,11 +26,12 @@ label {
 
 nav a {
   display: inline-block;
-  margin: 1em;
+  margin: 0.75em;
   color: #4f4846;
-  font-size: 1.8vw;
+  font-size: 1.5vw;
   font-family: fantasy;
   font-variant: small-caps;
+  border: #266150;
 }
 
 form div {
@@ -61,29 +62,52 @@ form div {
   margin: 1vh;
 }
 
+#introTitle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: fantasy;
+  text-align: center;
+  color: #266150;
+  font-variant: small-caps;
+  font-size: 3.8vw;
+  margin: 1vh;
+  padding: 25px;
+}
+
 nav {
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: flex-end;
   white-space: pre-wrap;
-  font-size: 2vh;
+  font-size: 2.2vh;
   width: auto;
   height: auto;
   padding: 1px;
   margin: 0;
-  background-image: linear-gradient(to right, #fdf8f5, #e8cebf, #266150);
+  background-image: linear-gradient(
+    to right,
+    #fdf8f5,
+    #e8cebf,
+    #e8cebf,
+    #e8cebf
+  );
 }
 nav > img {
   margin-right: auto;
   margin-left: 4%;
-  width: 14%;
+  width: 13%;
   height: auto;
 }
 .imgContainer {
   position: relative;
   text-align: center;
 }
+/*
+.navBorder{
+  padding:0px;
+} */
 
 #footContainer {
   display: flex;
@@ -95,7 +119,7 @@ nav > img {
   width: auto;
   height: auto;
   margin: 0;
-  background-image: linear-gradient(to top left, #fdf8f5, #e8cebf, #266150);
+  background-color: #fdf8f5;
 }
 #footContainer > div {
   font-size: 1.2vw;
@@ -146,11 +170,18 @@ nav > img {
     width: 100%;
     display: block;
   }
+  .card {
+    width: 50%;
+    display: inherit;
+  }
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 100%;
+  height: 100%;
+  background-color: #fdf8f5;
+  padding: 8px;
 }
 
 .container {
@@ -161,7 +192,7 @@ nav > img {
 .row::after {
   content: '';
   clear: both;
-  display: table;
+  display: block;
 }
 
 .title {
@@ -186,8 +217,8 @@ nav > img {
 }
 
 #therapist {
-  height: 550px;
-  width: 550px;
+  height: 75%;
+  width: 75%;
 }
 
 #Contact {
@@ -247,16 +278,16 @@ nav {
   width: 100%;
 }
 
-#about {
+#about > p {
   display: block;
   margin-left: auto;
   margin-right: auto;
   font-family: fantasy;
   text-align: center;
-  width: 75vmax;
-  color: black;
-
+  width: 75vw;
+  color: #4f4846;
   font-size: 2vw;
+  padding: 10px;
 }
 
 .firstIntro {

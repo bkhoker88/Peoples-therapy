@@ -5,7 +5,7 @@ export const About = () => {
   return (
     <div>
       <Zoom>
-        <h1 id="intro">Who We Are </h1>
+        <h1 id="introTitle">about us </h1>
       </Zoom>
       <Zoom>
         <div id="about">
