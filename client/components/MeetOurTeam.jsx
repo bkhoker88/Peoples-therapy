@@ -12,7 +12,7 @@ export const MeetOurTeam = () => {
             <img id="therapist" src="Boo.png" alt="Jane" />
             <div className="container">
               <h2>Adriana Khoker, LCSW</h2>
-              <p className="title">CEO & Founder</p>
+              <h4 className="title">CEO & Founder</h4>
               <p>
                 Adriana is a native New Yorker and familiar with the stressors
                 that come with living in NYC. She received her undergraduate
@@ -35,6 +35,7 @@ export const MeetOurTeam = () => {
                 of life feel welcomed and accepted at her practice.{' '}
               </p>
               <p>example@example.com</p>
+              <div> Not accepting new patients</div>
               <p>
                 <button type="button" className="button">
                   Contact
