@@ -28,7 +28,7 @@ nav a {
   display: inline-block;
   margin: 0.75em;
   color: #4f4846;
-  font-size: 1.5vw;
+  font-size: 1.9vw;
   font-family: fantasy;
   font-variant: small-caps;
   border: #266150;
@@ -72,7 +72,7 @@ form div {
   font-variant: small-caps;
   font-size: 3.8vw;
   margin: 1vh;
-  padding: 25px;
+  padding: 10px;
 }
 
 nav {
@@ -162,30 +162,25 @@ nav > img {
   float: left;
   width: 33.3%;
   margin-bottom: 16px;
-  padding: 8px;
+  padding: 0 8px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
   .column {
     width: 100%;
     display: block;
-  }
-  .card {
-    width: 50%;
-    display: inherit;
   }
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 100%;
-  height: 100%;
+
   background-color: #fdf8f5;
   padding: 8px;
 }
 
 .container {
-  padding: 20px;
+  padding: 0 16px;
 }
 
 .container::after,
@@ -201,15 +196,15 @@ nav > img {
 
 .button {
   border: none;
-  outline: 5;
+  outline: 0;
   display: inline-block;
-  padding: 1px;
+  padding: 8px;
   color: white;
   background-color: #c89882;
   text-align: center;
   cursor: pointer;
-  width: auto;
-  height: auto;
+  width: 100%;
+  /* height: auto; */
 }
 
 .button:hover {
@@ -217,8 +212,10 @@ nav > img {
 }
 
 #therapist {
-  height: 75%;
-  width: 75%;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
 }
 
 #Contact {

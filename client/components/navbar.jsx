@@ -8,15 +8,14 @@ const Navbar = () => (
       <Fade left>
         <img alt="" src="logo.png" height="50" width="50" id="logo" />
       </Fade>
-      <ul>
-        <Link to="/"> home</Link>
-        <Link to="/Aboutus"> who we are</Link>
-        <Link to="/Team"> meet our team</Link>
-        <Link to="/Services"> services</Link>
-        <Link to="/Insurance"> insurance & fees </Link>
 
-        {/* <button type='button'>Contact</button> */}
-      </ul>
+      <Link to="/"> home</Link>
+      <Link to="/Aboutus"> who we are</Link>
+      <Link to="/Team"> meet our team</Link>
+      <Link to="/Services"> services</Link>
+      <Link to="/Insurance"> insurance & fees </Link>
+
+      {/* <button type='button'>Contact</button> */}
 
       <div />
     </nav>
