@@ -35,8 +35,8 @@ export const MeetOurTeam = () => {
                 of life feel welcomed and accepted at her practice.{' '}
               </p>
               <p>example@example.com</p>
+              <div> Not accepting new patients</div>
               <p>
-                <p> Not accepting new patients</p>
                 <button type="button" className="button">
                   Contact
                 </button>
