@@ -1,28 +1,41 @@
 import React from 'react'
-import {Fade, Zoom, Flip} from 'react-reveal'
+import {Fade, Zoom, Slide} from 'react-reveal'
 
 export const Insurance = () => {
   return (
-    <div>
+    <div id="insurance">
       <Zoom>
         <h1 id="introTitle">Insurance </h1>
       </Zoom>
-      <Zoom>
-        <div id="about">
-          <p>
-            The People’s Therapy is a virtual mental health practice of diverse
-            and inclusive therapists who identify as BIPOC. Our mission is to
-            provide excellent mental health services at affordable fees and via
-            insurance. We are passionate about learning and therefore our
-            clinicians are constantly working and growing their clinical skills
-            to bring the latest tools and interventions to their therapy
-            sessions. We believe everyone should have access to exceptional
-            mental health care from well trained licensed clinicians, with
-            someone you can identify with whether through lived experience,
-            culture or race, and at your convenience.
-          </p>
-        </div>
-      </Zoom>
+      <h2 id="about">
+        It’s our mission to provide the best quality mental health in New York
+        City, and we strive to make this as convenient as possible. Our billing
+        team will clarify your payment options as well as verify your insurance
+        coverage prior to your first visit- so you don’t have to. Call us at
+        646.685.4422.
+      </h2>
+      <div id="insuranceLogos">
+        <Slide bottom>
+          <img src="cigna-logo.png" />
+        </Slide>
+        <Slide right>
+          <img src="uhc.png" />
+        </Slide>
+        <Slide left>
+          <img src="optum.png" />
+        </Slide>
+      </div>
+      <div id="insuranceLogos">
+        <Slide top>
+          <img src="oscar.png" />
+        </Slide>
+        <Slide top>
+          <img src="empire.png" />
+        </Slide>
+        <Slide left>
+          <img src="oxford.png" />
+        </Slide>
+      </div>
     </div>
   )
 }
