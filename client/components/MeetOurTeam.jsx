@@ -106,17 +106,31 @@ export const MeetOurTeam = () => {
 
         <div className="column">
           <div className="card">
-            <img id="therapist" src="shaynell.jpg" alt="Mike" />
+            <img id="therapist" src="Monica.png" />
             <div className="container">
-              <h2>Shaynel Roberts, LMSW</h2>
+              <h2>Monica Suarez, LMSW</h2>
               <p className="title">Psychotherapist</p>
               <p>
-                Shaynel is a psychotherapist who o get you feeling better and
-                more balanced.
+                My name is Monica Suarez and I'm a native New Yorker with a
+                passion for supporting others in the NYC community. I received
+                my undergraduate degree from John Jay College of Criminal
+                Justice and my MSW from NYU Silver School of Social Work. I have
+                broad experience with working with people from different walks
+                of life such as undocumented, severely mentally ill, and history
+                of substance use. I enjoy working with people who struggle with
+                anxiety, depression, trauma, life transitions, and teenagers. I
+                have an extensive history of working with children, youth, and
+                families. Particularly with adolescents in their transitioning
+                from children to young adults.
               </p>
               <p>
-                Shaynel enjoys an eclectic approach with her clients utilizing
-                cogystem.
+                I view my work to be a partnership between clinician and client.
+                I strongly utilize a strength-based and trauma-based approach in
+                my practice by using Cognitive Behavioral Therapy, Motivational
+                Interviewing, and Crisis Intervention. My goal as a therapist is
+                to provide a safe space for you to be your most authentic self
+                where we can work together on building skills that work for you
+                throughout your treatment.
               </p>
               <p>example@example.com</p>
               <p>
