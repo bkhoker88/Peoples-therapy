@@ -51,6 +51,7 @@ export const Home = () => {
 export default Home
 
 // colors
+// #c89882  logo brown
 // #fdf8f5  white
 // #e8cebf  pink
 // #266150  green
