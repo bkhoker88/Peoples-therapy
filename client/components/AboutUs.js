@@ -4,9 +4,10 @@ import {Fade, Zoom, Flip} from 'react-reveal'
 export const About = () => {
   return (
     <div>
-      <Zoom>
-        <h1 id="introTitle">about us </h1>
-      </Zoom>
+      {/* <img src="queens.png"/> */}
+      {/* <Zoom> */}
+      <h1 id="introTitle">about us </h1>
+      {/* </Zoom> */}
       <Zoom>
         <div id="about">
           <p>

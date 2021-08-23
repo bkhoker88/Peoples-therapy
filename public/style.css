@@ -34,9 +34,9 @@ nav a {
   margin: 0.75em;
   color: #4f4846;
   font-size: 1.9vw;
-  font-family: fantasy;
+  font-family: ivypresto-display, serif;
   font-variant: small-caps;
-  font-weight: bold;
+  font-weight: 100;
   border: #266150;
 }
 
@@ -60,7 +60,7 @@ form div {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  font-family: fantasy;
+  font-family: ivypresto-display, serif;
   text-align: center;
   color: #fdf8f5;
   font-variant: small-caps;
@@ -72,13 +72,16 @@ form div {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  font-family: fantasy;
+  font-family: ivypresto-display, serif;
   text-align: center;
-  color: #266150;
+  color: #fdf8f5;
   font-variant: small-caps;
   font-size: 3.8vw;
   margin: 1vh;
   padding: 15px;
+  background-image: url('NYC.jpg');
+  background-repeat: space;
+  background-position: center;
 }
 
 nav {
@@ -201,10 +204,15 @@ nav > img {
   padding: 0 16px;
 }
 
-.card:last-child {
-  /* position:absolute;
-  bottom:0; */
-}
+/* .contianer > p{
+font-family:ivypresto-display,serif;
+line-height: 8.6;
+} */
+
+/* .card:last-child {
+  position:absolute;
+  bottom:0;
+} */
 
 .container::after,
 .row::after {
@@ -317,16 +325,16 @@ nav {
   width: 100%;
 }
 
-#about > p {
+#about {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  font-family: fantasy;
-  text-align: center;
-  /* text-indent: 30%; */
-  width: 75vw;
+  font-family: ivypresto-display, serif;
+  text-align: left;
+  text-indent: 10%;
+  width: 80vw;
   color: #4f4846;
-  font-size: 3vw;
+  font-size: 2.5vw;
   padding: 5px;
   line-height: 1.6;
 }
@@ -359,6 +367,16 @@ nav {
   margin: 0;
 }
 
-#insurance {
-  padding: 30px;
+.empire {
+  width: 234px;
 }
+
+/* #insurance {
+  padding: 30px;
+} */
+
+/* #introTitle{
+  background-image:url('manhattan.png');
+    background-repeat: no-repeat;
+  background-position: center;
+} */
