@@ -8,16 +8,16 @@ const Footbar = () => {
         <div id="footContainer">
           <div>
             <div id="footName">Location</div>
-            <div>A virtual mental health practice Serving all of NY</div>
+            <div>A virtual mental health practice serving all of NY</div>
           </div>
           <div>
             <div id="footName">Hours</div>
-            <div>Monday thru Friday: 9:00am — 8:00pm</div>
-            <div> Saturday and Sunday</div>
+            <div>By Appointment</div>
+            {/* <div> Saturday and Sunday</div> */}
           </div>
           <div>
             <div id="footName">Contact</div>
-            <div>hello@thepeoplestherapy</div>
+            <div>info@thepeoplestherapy.com</div>
             <div>Phone (917) 426-1618</div>
           </div>
         </div>

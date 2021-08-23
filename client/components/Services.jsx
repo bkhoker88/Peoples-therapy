@@ -4,9 +4,9 @@ import {Fade, Zoom, Flip} from 'react-reveal'
 export const Services = () => {
   return (
     <div className="services">
-      <Zoom>
-        <h1 id="introTitle">Provided Services </h1>
-      </Zoom>
+      {/* <Zoom> */}
+      <h1 id="introTitle">Provided Services </h1>
+      {/* </Zoom> */}
       <div>
         <h3> Telehealth</h3>
         <li>Will my insurance cover telemental health?</li>

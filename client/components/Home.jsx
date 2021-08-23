@@ -20,11 +20,11 @@ export const Home = () => {
             <h2 id="intro">a mental health practice of diverse</h2>
           </Zoom>
           <Zoom duration={800} delay={1000}>
-            <h2 id="intro">and inclusive therapists for the people;</h2>
+            <h2 id="intro">and inclusive therapists for the people</h2>
           </Zoom>
-          <Zoom duration={800} delay={1500}>
+          {/* <Zoom duration={800} delay={1500}>
             <h2 id="intro">our people.</h2>
-          </Zoom>
+          </Zoom> */}
         </div>
       </div>
       <br />
@@ -39,10 +39,10 @@ export const Home = () => {
       <div id="homebottom2">
         <h1> a telehealth practice serving all of new york</h1>
 
-        <button type="button" id="Contact">
+        {/* <button type="button" id="Contact">
           {' '}
           Make an Appointment{' '}
-        </button>
+        </button> */}
       </div>
     </div>
   )

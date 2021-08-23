@@ -3,15 +3,15 @@ import {Zoom} from 'react-reveal'
 
 export const MeetOurTeam = () => {
   return (
-    <Zoom>
-      <h1 id="introTitle">"Our Team"</h1>
-
+    <div className="Team">
+      {/* <img src="bronx.jpg"/> */}
+      <h1 id="introTitle">Our Team</h1>
       <div className="row">
         <div className="column">
           <div className="card">
             <img id="therapist" src="Boo.png" alt="Jane" />
             <div className="container">
-              <h2>Adriana Khoker, LCSW</h2>
+              <h2>Adriana Khoker, LCSW-R</h2>
               <h4 className="title">CEO & Founder</h4>
               <p>
                 Adriana is a native New Yorker and familiar with the stressors
@@ -34,12 +34,12 @@ export const MeetOurTeam = () => {
                 hopes to provide an environment in which people from all walks
                 of life feel welcomed and accepted at her practice.{' '}
               </p>
-              <p>example@example.com</p>
+              {/* <p>example@example.com</p> */}
               <div> Not accepting new patients</div>
               <p>
-                <button type="button" className="button">
+                {/* <button type="button" className="button">
                   Contact
-                </button>
+                </button> */}
               </p>
             </div>
           </div>
@@ -68,11 +68,11 @@ export const MeetOurTeam = () => {
                 school settings, outpatient and in-home services, as well as in
                 the child welfare system.
               </p>
-              <p>example@example.com</p>
+              {/* <p>example@example.com</p> */}
               <p>
-                <button type="button" className="button">
+                {/* <button type="button" className="button">
                   Contact
-                </button>
+                </button> */}
               </p>
             </div>
           </div>
@@ -82,23 +82,34 @@ export const MeetOurTeam = () => {
           <div className="card">
             <img id="therapist" src="darrlyn.jpeg" alt="John" />
             <div className="container">
-              <h2>Darrlyn</h2>
-              <p className="title">Designer</p>
+              <h2>Darrlyn Moorer, LMSW</h2>
+              <p className="title">Psychotherapist</p>
               <p>
-                Some text that describes me lorem ipsum ipsum
-                loremsfaaaaaaaaaaaaa asdfasddddddddddddddddddd asfdasdf
-                assssssssssssasdf Shaynel enjoys an eclectic approach with her
-                clients utilizing cognitive behavior interventions, DBT, REBT,
-                MI, family systems, and mindfulness to help you understand the
-                challenges you face. She has extensive experience in behavioral
-                health settings, school settings, outpatient and in-home
-                services, as well as in the child welfarasdfadsdfasdf.
+                My name is Darrlyn Moorer and I’m a native New Yorker passionate
+                about serving the needs of my community. I view the relationship
+                between the clinician and client as a collaboration; I want my
+                clients to truly feel like they are a part of the therapeutic
+                process and are in charge of their counseling experience. I have
+                a broad range of clinical experience in the child welfare,
+                family homelessness and healthcare fields, and have worked with
+                adults, children and families. I also have an extensive
+                background of providing support to diverse groups of people
+                including but not limited to those who identified as BIPOC
+                and/or LGBTQIA+.
               </p>
-              <p>example@example.com</p>
               <p>
-                <button type="button" className="button">
+                I employ a strengths-based, client centered, trauma informed
+                approach in my practice and utilize Motivational Interviewing,
+                Cognitive Reframing and Crisis Intervention. My goal as a
+                therapist is to provide a safe environment where we can explore
+                your primary interests, identify goals and develop a treatment
+                plan to fit you and your aspirations.
+              </p>
+              {/* <p>example@example.com</p> */}
+              <p>
+                {/* <button type="button" className="button">
                   Contact
-                </button>
+                </button> */}
               </p>
             </div>
           </div>
@@ -132,17 +143,17 @@ export const MeetOurTeam = () => {
                 where we can work together on building skills that work for you
                 throughout your treatment.
               </p>
-              <p>example@example.com</p>
+              {/* <p>example@example.com</p> */}
               <p>
-                <button type="button" className="button">
+                {/* <button type="button" className="button">
                   Contact
-                </button>
+                </button> */}
               </p>
             </div>
           </div>
         </div>
 
-        <div className="column">
+        {/* <div className="column">
           <div className="card">
             <img id="therapist" src="shaynell.jpg" alt="Mike" />
             <div className="container">
@@ -166,9 +177,9 @@ export const MeetOurTeam = () => {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
-    </Zoom>
+    </div>
   )
 }
 
