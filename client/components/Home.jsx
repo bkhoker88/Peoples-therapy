@@ -16,10 +16,10 @@ export const Home = () => {
           className="responsive"
         />
         <div className="firstIntro">
-          <Zoom duration={800} delay={500}>
+          <Zoom duration={750} delay={450}>
             <h2 id="intro">a mental health practice of diverse</h2>
           </Zoom>
-          <Zoom duration={800} delay={1000}>
+          <Zoom duration={750} delay={900}>
             <h2 id="intro">and inclusive therapists for the people</h2>
           </Zoom>
           {/* <Zoom duration={800} delay={1500}>

@@ -184,3 +184,29 @@ export const MeetOurTeam = () => {
 }
 
 export default MeetOurTeam
+
+/* <div className="column">
+          <div className="card">
+            <img id="therapist" src="shaynell.jpg" alt="Mike" />
+            <div className="container">
+              <h2>Shaynel Roberts, LMSW</h2>
+              <p className="title">Psychotherapist</p>
+              <p>
+                Shaynel is a psychotherapist who works with adults, children and
+                adolescents as well as their families. She has a particular
+                focus on those struggling more balanced.
+              </p>
+              <p>
+                Shaynel enjoys an eclectic approach with her clients utilizing
+                cognitive behavior interventions, outpatient and in-home
+                services, as well as in the child welfare system.
+              </p>
+              <p>example@example.com</p>
+              <p>
+                <button type="button" className="button">
+                  Contact
+                </button>
+              </p>
+            </div>
+          </div>
+        </div> */
