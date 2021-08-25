@@ -80,13 +80,7 @@ export const Services = () => {
           listen. In such an atmosphere, people are able to experience how old
           ways of destructive conflict can change into productive dialogue. They
           see one another as if anew. Not every couple who seeks counseling is
-          in crisis. Different kinds of couples seek counseling –from friends
-          who want to explore their friendship, people who are dating who want
-          to communicate better, to people who are wondering if they should take
-          a next step in their relationship with a variety of levels of
-          commitment – from friends or people who are romantically involved and
-          considering deeper commitment. This is called, “pre-commitment
-          counseling.”{' '}
+          in crisis. ”{' '}
         </p>
       </div>
 
