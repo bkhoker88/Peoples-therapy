@@ -11,7 +11,8 @@ export const Insurance = () => {
         It’s our mission to provide the best quality mental health in New York
         City, and we strive to make this as convenient as possible. Our billing
         team will clarify your payment options as well as verify your insurance
-        coverage prior to your first visit- so you don’t have to.
+        coverage prior to your first visit.
+        {/* - so you don’t have to. */}
       </div>
       <div id="insuranceLogos">
         <Slide bottom>
