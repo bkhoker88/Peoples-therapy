@@ -85,7 +85,7 @@ export const Services = () => {
       </div>
 
       <div>
-        <h3> Family Therrapy</h3>
+        {/* <h3> Family Therrapy</h3>
         <p>
           Family therapy helps families who are experiencing relationship
           conflict and perhaps are experiencing a volatile home environment or
@@ -104,7 +104,7 @@ export const Services = () => {
           during scheduled sessions. Family therapy can take place in the office
           or in your home and all family members will have input as to where the
           sessions will take place.
-        </p>
+        </p> */}
       </div>
     </div>
   )
