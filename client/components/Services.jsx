@@ -102,9 +102,9 @@ export const Services = () => {
           to participate in the therapy process and participants play an active
           role and have input on treatment goals and who attends appointments
           during scheduled sessions. */}
-          Family therapy can take place in the office or in your home and all
+          {/* Family therapy can take place in the office or in your home and all
           family members will have input as to where the sessions will take
-          place.
+          place. */}
         </p>
       </div>
     </div>
