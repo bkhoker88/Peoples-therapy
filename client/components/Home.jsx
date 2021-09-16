@@ -39,10 +39,10 @@ export const Home = () => {
       <div id="homebottom2">
         <h1> a telehealth practice serving all of new york</h1>
 
-        {/* <button type="button" id="Contact">
+        <button type="button" id="Contact">
           {' '}
           Make an Appointment{' '}
-        </button> */}
+        </button>
       </div>
     </div>
   )

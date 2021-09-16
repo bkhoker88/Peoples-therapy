@@ -87,7 +87,7 @@ export const Services = () => {
       <div>
         <h3> Family Therapy</h3>
         <p>
-          {/* Family therapy helps families who are experiencing relationship
+          Family therapy helps families who are experiencing relationship
           conflict and perhaps are experiencing a volatile home environment or
           families who have experienced a crisis or tragedy that is difficult to
           cope with. Family therapy provides support and perspective by
@@ -95,16 +95,15 @@ export const Services = () => {
           about themselves as well as the feelings and needs of others within
           the family system. Family counseling will help each participant
           develop necessary insight and skills to approach relationship
-          difficulties and challenges in a way that is helpful and effective. */}
-          {/* The ultimate goal of family counseling is to improve family
+          difficulties and challenges in a way that is helpful and effective.
+          The ultimate goal of family counseling is to improve family
           functioning through mutual trust, communication and conflict
           resolution skills. The therapist may ask all or several family members
           to participate in the therapy process and participants play an active
           role and have input on treatment goals and who attends appointments
-          during scheduled sessions. */}
-          {/* Family therapy can take place in the office or in your home and all
-          family members will have input as to where the sessions will take
-          place. */}
+          during scheduled sessions. Family therapy can take place in the office
+          or in your home and all family members will have input as to where the
+          sessions will take place.
         </p>
       </div>
     </div>

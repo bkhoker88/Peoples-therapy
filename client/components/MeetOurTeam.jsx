@@ -70,7 +70,6 @@ export const MeetOurTeam = () => {
                 the child welfare system.
               </p>
               <div id="accepting"> accepting new patients</div>
-              {/* <p>example@example.com</p> */}
               <p>
                 {/* <button type="button" className="button">
                   Contact
