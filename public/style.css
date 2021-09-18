@@ -16,7 +16,7 @@ a {
   padding: 5px;
 }
 
-a:hover {
+nav > a:hover {
   color: #266150;
   /* box-shadow:1px 1px 1px 1px #fdf8f5; */
   /* text-shadow: 5px 5px  #fdf8f5 ; */
@@ -388,6 +388,31 @@ nav {
 
 .empire {
   width: 234px;
+}
+
+spwidget-button-wrapper {
+  text-align: center;
+}
+
+spwidget-button {
+  display: inline-block;
+  padding: 12px 24px;
+  color: #fff !important;
+  background: #de6a26;
+  border: 0;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+spwidget-button:hover {
+  background: #d15913;
+}
+
+spwidget-button:active {
+  color: rgba(255, 255, 255, 0.75) !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
 }
 
 /* #insurance {

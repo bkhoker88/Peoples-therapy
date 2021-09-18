@@ -36,6 +36,12 @@ export const Insurance = () => {
           <img src="oxford.png" />
         </Slide>
       </div>
+
+      <div id="insuranceLogos">
+        <Slide bottom>
+          <img src="Aetna.png" />
+        </Slide>
+      </div>
     </div>
   )
 }
