@@ -72,5 +72,4 @@ export default Home
 // #266150  green
 // #4f4846  black
 
-// <a href="https://adriana-khoker.clientsecure.me" className="spwidget-button" data-spwidget-scope-id="1c342bdf-c323-45bd-a4db-d3461b4838d0" data-spwidget-scope-uri="adriana-khoker" data-spwidget-application-id="7c72cb9f9a9b913654bb89d6c7b4e71a77911b30192051da35384b4d0c6d505b" data-spwidget-scope-global data-spwidget-autobind>
-//     </a>
+//npm run build-client
