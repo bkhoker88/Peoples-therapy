@@ -15,6 +15,7 @@ export const Home = () => {
           width="400"
           className="responsive"
         />
+
         <div className="firstIntro">
           <Zoom duration={750} delay={450}>
             <h2 id="intro">a mental health practice of diverse</h2>
