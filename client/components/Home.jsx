@@ -22,9 +22,7 @@ export const Home = () => {
           <Zoom duration={750} delay={900}>
             <h2 id="intro">and inclusive therapists for the people</h2>
           </Zoom>
-          {/* <Zoom duration={800} delay={1500}>
-            <h2 id="intro">our people.</h2>
-          </Zoom> */}
+    
         </div>
       </div>
       <br />
