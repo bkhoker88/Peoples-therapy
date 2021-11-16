@@ -81,9 +81,9 @@ export const MeetOurTeam = () => {
 
         <div className="column">
           <div className="card">
-            <img id="therapist" src="darrlyn.jpeg" alt="John" />
+            <img id="therapist" src="Darrlyn.jpg" alt="John" />
             <div className="container">
-              <h2>Darrlyn Moorer, LMSW</h2>
+              <h2>Darrlyn Moorer, LCSW</h2>
               <p className="title">Psychotherapist</p>
               <p id="indent">
                 Darrlyn Moorer is a native New Yorker passionate about serving
@@ -190,31 +190,40 @@ export const MeetOurTeam = () => {
           </div>
         </div>
 
-        {/* <div className="column">
+        <div className="column">
           <div className="card">
-            <img id="therapist" src="shaynell.jpg" alt="Mike" />
+            <img id="therapist" src="erika.jpg" alt="Mike" />
             <div className="container">
-              <h2>Shaynel Roberts, LMSW</h2>
+              <h2>Erika Richardson, LMSW</h2>
               <p className="title">Psychotherapist</p>
-              <p>
-                Shaynel is a psychotherapist who works with adults, children and
-                adolescents as well as their families. She has a particular
-                focus on those struggling more balanced.
+              <p id="indent">
+                Erika is a bilingual (English and Spanish) Licensed Master of
+                Social Work. She obtained her Master's Degree in Social Welfare
+                from Stony Brook University in 2017. Erika works to establish a
+                safe and empathetic therapeutic environment where
+                client-centered practices can be established to make each
+                individual client feel comfortable enough to explore their
+                emotions. Erika specializes in working with teenagers and young
+                adults, but she has a great deal of experience working with
+                children, families, and adults.
               </p>
-              <p>
-                Shaynel enjoys an eclectic approach with her clients utilizing
-                cognitive behavior interventions, outpatient and in-home
-                services, as well as in the child welfare system.
-              </p>
-              <p>example@example.com</p>
-              <p>
-                <button type="button" className="button">
+              <p id="indent">
+                She has aided clients in working through issues related to
+                anxiety, depression, ADD/ADHD, autism spectrum disorder,
+                self-esteem, trauma, parenting practices, interpersonal
+                relationships, and other life concerns. Erika's work is rooted
+                in a holistic, strength based, client-centered approach that is
+                tailored to each individual client based on their own needs,
+                strengths, and goals.
+                <div id="accepting"> accepting new patients</div>
+                {/* <p>example@example.com</p> */}
+                {/* <button type="button" className="button">
                   Contact
-                </button>
+                </button> */}
               </p>
             </div>
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   )
