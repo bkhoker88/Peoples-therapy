@@ -48,39 +48,6 @@ export const MeetOurTeam = () => {
 
         <div className="column">
           <div className="card">
-            <img id="therapist" src="shaynell.jpg" alt="Mike" />
-            <div className="container">
-              <h2>Shaynel Roberts, LMSW</h2>
-              <p className="title">Psychotherapist</p>
-              <p id="indent">
-                Shaynel is a psychotherapist who works with adults, children and
-                adolescents as well as their families. She has a particular
-                focus on those struggling with depression, anxiety, behavior
-                concerns, communication struggles, and work and relationship
-                issues. She utilizes a warm and collaborative approach during
-                treatment and makes sure to identify your goals and set a
-                treatment plan to get you feeling better and more balanced.
-              </p>
-              <p id="indent">
-                Shaynel enjoys an eclectic approach with her clients utilizing
-                cognitive behavior interventions, DBT, REBT, MI, family systems,
-                and mindfulness to help you understand the challenges you face.
-                She has extensive experience in behavioral health settings,
-                school settings, outpatient and in-home services, as well as in
-                the child welfare system.
-              </p>
-              <div id="accepting"> accepting new patients</div>
-              <p>
-                {/* <button type="button" className="button">
-                  Contact
-                </button> */}
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className="column">
-          <div className="card">
             <img id="therapist" src="Darrlyn.jpg" alt="John" />
             <div className="container">
               <h2>Darrlyn Moorer, LCSW</h2>
