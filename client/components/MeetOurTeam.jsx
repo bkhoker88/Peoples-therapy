@@ -48,43 +48,10 @@ export const MeetOurTeam = () => {
 
         <div className="column">
           <div className="card">
-            <img id="therapist" src="shaynell.jpg" alt="Mike" />
-            <div className="container">
-              <h2>Shaynel Roberts, LMSW</h2>
-              <p className="title">Psychotherapist</p>
-              <p id="indent">
-                Shaynel is a psychotherapist who works with adults, children and
-                adolescents as well as their families. She has a particular
-                focus on those struggling with depression, anxiety, behavior
-                concerns, communication struggles, and work and relationship
-                issues. She utilizes a warm and collaborative approach during
-                treatment and makes sure to identify your goals and set a
-                treatment plan to get you feeling better and more balanced.
-              </p>
-              <p id="indent">
-                Shaynel enjoys an eclectic approach with her clients utilizing
-                cognitive behavior interventions, DBT, REBT, MI, family systems,
-                and mindfulness to help you understand the challenges you face.
-                She has extensive experience in behavioral health settings,
-                school settings, outpatient and in-home services, as well as in
-                the child welfare system.
-              </p>
-              <div id="accepting"> accepting new patients</div>
-              <p>
-                {/* <button type="button" className="button">
-                  Contact
-                </button> */}
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className="column">
-          <div className="card">
             <img id="therapist" src="Darrlyn.jpg" alt="John" />
             <div className="container">
               <h2>Darrlyn Moorer, LCSW</h2>
-              <p className="title">Psychotherapist</p>
+              <p className="title">Clinical Supervisor / Psychotherapist</p>
               <p id="indent">
                 Darrlyn Moorer is a native New Yorker passionate about serving
                 the needs of her community. She views the relationship between
@@ -106,6 +73,41 @@ export const MeetOurTeam = () => {
                 your primary interests, identify goals and develop a treatment
                 plan to fit you and your aspirations.
               </p>
+              {/* <div id="accepting"> accepting new patients</div> */}
+              <div id="notaccepting"> not accepting new patients</div>
+              {/* <p>example@example.com</p> */}
+              <p>
+                {/* <button type="button" className="button">
+                  Contact
+                </button> */}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="column">
+          <div className="card">
+            <img id="therapist" src="shaynell.jpg" alt="Mike" />
+            <div className="container">
+              <h2>Shaynel Roberts, LMSW</h2>
+              <p className="title">Psychotherapist</p>
+              <p>
+                Shaynel is a psychotherapist who works with adults, children and
+                adolescents as well as their families. She has a particular
+                focus on those struggling with depression, anxiety, behavior
+                concerns, communication struggles, and work and relationship
+                issues. She utilizes a warm and collaborative approach during
+                treatment and makes sure to identify your goals and set a
+                treatment plan to get you feeling better and more balanced.
+              </p>
+              <p>
+                Shaynel enjoys an eclectic approach with her clients utilizing
+                cognitive behavior interventions, DBT, REBT, MI, family systems,
+                and mindfulness to help you understand the challenges you face.
+                She has extensive experience in behavioral health settings,
+                school settings, outpatient and in-home services, as well as in
+                the child welfare system.
+              </p>
               <div id="accepting"> accepting new patients</div>
               {/* <p>example@example.com</p> */}
               <p>
@@ -113,6 +115,7 @@ export const MeetOurTeam = () => {
                   Contact
                 </button> */}
               </p>
+              {/* <div id="notaccepting"> not accepting new patients</div> */}
             </div>
           </div>
         </div>
@@ -224,35 +227,54 @@ export const MeetOurTeam = () => {
             </div>
           </div>
         </div>
+
+        <div className="column">
+          <div className="card">
+            <img id="therapist" src="ana.JPEG" alt="Jane" />
+            <div className="container">
+              <h2>Ana Ladino, LMSW</h2>
+              <h4 className="title">Psychotherapist</h4>
+              <p id="indent">
+                Ana is a passionate and warm bilingual (Spanish and English)
+                Licensed Master of Social Worker. She obtained her Master’s
+                degree from Columbia University in 2020. She attended New York
+                University for her Bachelor’s Degree in 2017. She has clinical
+                experience in different settings including outpatient treatment
+                programs, school settings and private practice. She can work
+                with all age groups from young children to adults. She utilizes
+                a combination of different therapy approaches including:
+                client-centered, Cognitive Behavioral Therapy, Psychodynamic,
+                Mindfulness Skills, Supportive Counseling, Trauma-Informed Care,
+                Crisis Intervention, Family-Systems and Strengths Based
+                approaches. She understands the importance of a multimodal
+                approach to treatment to support clients in exploring their
+                inner worlds and intersecting identities.
+              </p>
+              <p id="indent">
+                Through building a solid rapport and forming strong treatment
+                alliances, Ana works towards helping her client’s learn healthy
+                and adaptive coping skills, increase awareness and experience
+                greater joy when overcoming challenges in their lives. Ana
+                ensures each client is part of their own individualized plan to
+                be able to meet their mental health needs. Ana’s utmost priority
+                is to provide a safe and non-judgmental environment in which
+                clients can explore the therapeutic experience and feel listened
+                to, supported and validated.
+              </p>
+              {/* <p>example@example.com</p> */}
+
+              <p>
+                {/* <button type="button" className="button">
+                  Contact
+                </button> */}
+              </p>
+              <div id="accepting"> accepting new patients</div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )
 }
 
 export default MeetOurTeam
-
-/* <div className="column">
-          <div className="card">
-            <img id="therapist" src="shaynell.jpg" alt="Mike" />
-            <div className="container">
-              <h2>Shaynel Roberts, LMSW</h2>
-              <p className="title">Psychotherapist</p>
-              <p>
-                Shaynel is a psychotherapist who works with adults, children and
-                adolescents as well as their families. She has a particular
-                focus on those struggling more balanced.
-              </p>
-              <p>
-                Shaynel enjoys an eclectic approach with her clients utilizing
-                cognitive behavior interventions, outpatient and in-home
-                services, as well as in the child welfare system.
-              </p>
-              <p>example@example.com</p>
-              <p>
-                <button type="button" className="button">
-                  Contact
-                </button>
-              </p>
-            </div>
-          </div>
-        </div> */
